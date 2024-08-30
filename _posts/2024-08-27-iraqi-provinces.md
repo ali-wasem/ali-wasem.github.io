@@ -2,8 +2,8 @@
 layout: post
 title: "Iraqi Provinces: An Interactive Learning Experience"
 date: 2024-03-15 13:32:20 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: workflow.jpg # Add image post (optional)
+description: Iraqi Provinces is an interactive Flutter app for elementary students to explore Iraq's geography with an engaging map and smooth animations. Compatible with Windows and MacOS, it offers a fun and dynamic learning experience.
+img: iraqi_provinces_banner2.png
 fig-caption: # Add figcaption (optional)
 tags: [flutter, app, getx, animation, responsive, custom paint, custom drawing]
 ---
