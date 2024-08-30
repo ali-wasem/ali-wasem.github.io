@@ -2,7 +2,7 @@
 layout: post
 title: "DrugsOrder: Simplifying Drug Management for Pharmacists"
 date: 2024-08-01 14:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: DrugsOrder is a Flutter app that simplifies drug order management for hospital pharmacists. It offers quick access to the latest orders, an easy-to-use drug list, and a detailed order history. Built with Riverpod and Isar, it ensures efficient performance and reliable data storage. # Add post description (optional)
 img: drugs_order_banner.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [flutter, app, riverpod, isar, go_router]
