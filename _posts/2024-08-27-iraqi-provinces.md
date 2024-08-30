@@ -3,9 +3,9 @@ layout: post
 title: "Iraqi Provinces: An Interactive Learning Experience"
 date: 2024-03-15 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: i-rest.jpg # Add image post (optional)
+img: workflow.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [Holidays, Hawaii]
+tags: [Flutter, app, GetX, animation, responsive, Custom Paint, Custom Drawing]
 ---
 
 ## Overview
