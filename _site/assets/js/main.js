@@ -1,46 +1,31 @@
-document.addEventListener("DOMContentLoaded", function () {
-  // Create modal HTML structure
-  const modalHTML = `
-      <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
-      </div>
-    `;
+// Get the modal
+var modal = document.getElementById("myModal");
 
-  // Append modal to the body
-  document.body.insertAdjacentHTML("beforeend", modalHTML);
+// Get all images with the class 'modal-trigger'
+var images = document.querySelectorAll(".modal-trigger");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
 
-  // Get modal elements
-  const modal = document.getElementById("myModal");
-  const modalImg = document.getElementById("img01");
-  const captionText = document.getElementById("caption");
-  const closeBtn = document.getElementsByClassName("close")[0];
-
-  // Function to handle image click
-  function openModal(img) {
+// Loop through all selected images and add the click event
+images.forEach(function (img) {
+  img.onclick = function () {
     modal.style.display = "block";
-    modalImg.src = img.src;
-    captionText.innerHTML = img.alt;
-  }
-
-  // Apply modal functionality to all images in posts
-  document.querySelectorAll("article img").forEach(function (img) {
-    img.style.cursor = "pointer"; // Change cursor to pointer
-    img.addEventListener("click", function () {
-      openModal(img);
-    });
-  });
-
-  // Close modal on clicking the close button
-  closeBtn.addEventListener("click", function () {
-    modal.style.display = "none";
-  });
-
-  // Close modal on clicking outside the image
-  modal.addEventListener("click", function (event) {
-    if (event.target === modal) {
-      modal.style.display = "none";
-    }
-  });
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  };
 });
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+// When the user clicks anywhere outside of the modal, close it
+modal.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
