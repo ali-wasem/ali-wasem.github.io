@@ -15,7 +15,7 @@ Welcome to **DrugsOrder** – a Flutter app created to streamline the process of
 <div style="text-align: center;">
     <p>
         <img src="{{site.baseurl}}/assets/img/drugs-order/1.png" alt="Select Drug Screen" width="32%" class="modal-trigger">
-        <img src="{{site.baseurl}}/assets/img/drugs-order/24.png" alt="Latest Order Home Screen" width="32%" class="modal-trigger">
+        <img src="{{site.baseurl}}/assets/img/drugs-order/2.png" alt="Latest Order Home Screen" width="32%" class="modal-trigger">
         <img src="{{site.baseurl}}/assets/img/drugs-order/3.png" alt="Orders History Screen" width="32%" class="modal-trigger">
     </p>
 </div>
