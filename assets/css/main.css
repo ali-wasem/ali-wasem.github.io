@@ -43,8 +43,8 @@ body {
 .modal-content {
   margin: auto;
   display: block;
-  width: 90%; /* Larger image */
-  max-width: 90%;
+  width: 80%; /* Larger image */
+  max-width: 80%;
   animation-name: zoomIn;
   animation-duration: 0.2s;
 }

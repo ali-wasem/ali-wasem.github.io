@@ -22,8 +22,8 @@ tags: [flutter, app, getx, animation, responsive, custom paint, custom drawing]
 
 <div style="text-align: center;">
     <p>
-        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/1.png" alt="Navigate the Provinces (English Screen)" width="49%">
-        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/2.png" alt="Basic Info about the Province (English Screen)" width="49%" >
+        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/1.png" alt="Navigate the Provinces (English Screen)" width="49%" class="modal-trigger">
+        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/2.png" alt="Basic Info about the Province (English Screen)" width="49%" class="modal-trigger">
     </p>
 </div>
 
