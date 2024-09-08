@@ -20,29 +20,18 @@ tags: [flutter, app, getx, animation, responsive, custom paint, custom drawing]
 
 ## Screenshots
 
-<!-- <div style="text-align: center;">
-  <img src="{{site.baseurl}}/assets/img/iraqi-provinces/4.png" alt="Description" width="32%" id="myImg">
-</div> -->
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-
 <div style="text-align: center;">
     <p>
-        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/1.png" alt="Navigate the Provinces (English Screen)" width="49%" id="img01">
-        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/2.png" alt="Basic Info about the Province (English Screen)" width="49%" id="img01">
+        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/1.png" alt="Navigate the Provinces (English Screen)" width="49%">
+        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/2.png" alt="Basic Info about the Province (English Screen)" width="49%" >
     </p>
 </div>
 
 <div style="text-align: center;">
     <p>
-        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/3.png" alt="Start of Quiz with the ability to choose the number of questions (Arabic Screen)" width="32%" id="img01">
-        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/4.png" alt="Discover some interesting maps (Arabic Screen)" width="32%" id="img01">
-        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/5.png" alt="Details Info about the Province (Arabic Screen)" width="32%" id="img01">
+        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/3.png" alt="Start of Quiz with the ability to choose the number of questions (Arabic Screen)" width="32%" class="modal-trigger">
+        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/4.png" alt="Discover some interesting maps (Arabic Screen)" width="32%" class="modal-trigger">
+        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/5.png" alt="Details Info about the Province (Arabic Screen)" width="32%" class="modal-trigger">
     </p>
 </div>
 
