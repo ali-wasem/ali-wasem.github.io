@@ -33,16 +33,16 @@ tags: [flutter, app, getx, animation, responsive, custom paint, custom drawing]
 
 <div style="text-align: center;">
     <p>
-        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/1.png" alt="Description" width="49%" id="img01">
-        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/2.png" alt="Description" width="49%" id="img01">
+        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/1.png" alt="Navigate the Provinces (English Screen)" width="49%" id="img01">
+        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/2.png" alt="Basic Info about the Province (English Screen)" width="49%" id="img01">
     </p>
 </div>
 
 <div style="text-align: center;">
     <p>
-        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/3.png" alt="Description" width="32%" id="img01">
-        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/4.png" alt="Description" width="32%" id="img01">
-        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/5.png" alt="Description" width="32%" id="img01">
+        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/3.png" alt="Start of Quiz with the ability to choose the number of questions (Arabic Screen)" width="32%" id="img01">
+        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/4.png" alt="Discover some interesting maps (Arabic Screen)" width="32%" id="img01">
+        <img src="{{site.baseurl}}/assets/img/iraqi-provinces/5.png" alt="Details Info about the Province (Arabic Screen)" width="32%" id="img01">
     </p>
 </div>
 
@@ -82,96 +82,3 @@ Download **Iraqi Provinces** today and embark on an educational journey through 
 [![MacOS Download](https://img.shields.io/badge/Download-MacOS-darkorange)](https://github.com/aliwaseem27/Iraqi-Provinces/releases/download/1.2.0_macOS/IraqiProvinces_v1.2.0_macOS.zip)
 
 Or you can visit the code on [![GitHub](https://img.shields.io/badge/GitHub%20Repo-grey)](https://github.com/aliwaseem27/Iraqi-Provinces) and giving a thumbs up 👍
-
-<style>
-.modal {
-  display: none; 
-  position: fixed; 
-  z-index: 1; 
-  padding-top: 100px; 
-  left: 0;
-  top: 0;
-  width: 100%; 
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgba(0,0,0,0.5); /* Less dim background */
-  animation-name: fadeIn;
-  animation-duration: 0.4s;
-}
-
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  animation-name: zoomIn;
-  animation-duration: 0.4s;
-}
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-@keyframes zoomIn {
-  from {transform: scale(0.7);}
-  to {transform: scale(1);}
-}
-
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-}
-
-.close {
-  position: absolute;
-  top: 35px;
-  right: 35px;
-  color: #fff;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-</style>
-
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-modal.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
