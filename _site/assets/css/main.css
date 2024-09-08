@@ -24,6 +24,68 @@ body {
   margin: 0;
 }
 
+/* CSS for the overlay */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.5); /* Less dim background */
+  animation-name: fadeIn;
+  animation-duration: 0.2s;
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 90%; /* Larger image */
+  max-width: 90%;
+  animation-name: zoomIn;
+  animation-duration: 0.2s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes zoomIn {
+  from {transform: scale(0.8);}
+  to {transform: scale(1);}
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%; /* Align with modal-content */
+  max-width: 80%;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+}
+
+.close {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /**
  * Add the correct display in IE 9-.
  */
