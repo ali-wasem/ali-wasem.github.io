@@ -245,15 +245,19 @@
   // Get the modal
   var modal = document.getElementById("myModal");
   
-  // Get the image and insert it inside the modal - use its "alt" text as a caption
-  var img = document.getElementById("myImg");
+  // Get all images with the class 'modal-trigger'
+  var images = document.querySelectorAll(".modal-trigger");
   var modalImg = document.getElementById("img01");
   var captionText = document.getElementById("caption");
-  img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-  }
+  
+  // Loop through all selected images and add the click event
+  images.forEach(function(img) {
+    img.onclick = function() {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+  });
   
   // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
@@ -270,7 +274,7 @@
     }
   }
   </script>
- <script>
+   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
