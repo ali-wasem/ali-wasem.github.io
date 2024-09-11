@@ -12,39 +12,39 @@ Welcome to **Best Store**, a beautiful Flutter app designed to deliver a seamles
 
 ## Features of Best Store
 
-### Authentication Screens
+### 1. Authentication Screens
 
 The authentication screens ensure that users can easily sign up, log in, and manage their accounts securely. This section includes options for email verification, password reset, and social media login.
 
-### Onboarding Screens
+### 2. Onboarding Screens
 
 Our onboarding experience guides new users through the key features of the app, ensuring they understand how to navigate and make the most of Best Store.
 
-### Main Store Screen
+### 3. Main Store Screen
 
 The heart of the application, the main store screen, displays a wide range of products. It's designed to be visually appealing and easy to navigate, with filters and sorting options to enhance the shopping experience.
 
-### Product Details
+### 4. Product Details
 
 Each product has its own detail screen, providing users with comprehensive information, including images, descriptions, reviews, ratings and available colors & sizes.
 
-### Search
+### 5. Search
 
 The search functionality allows users to quickly find products by name, category, or keywords or price making the shopping process more efficient.
 
-### Profile
+### 6. Profile
 
 The profile section lets users manage their personal information, view order history, and update their preferences.
 
-### Wishlist
+### 7. Wishlist
 
 Users can save their favorite products to the wishlist for future reference, making it easy to keep track of items they're interested in.
 
-### Cart
+### 8. Cart
 
 The cart screen allows users to review their selected items, adjust quantities, and proceed to checkout with ease.
 
-### Chat
+### 9. Chat
 
 For any questions or issues, users can directly chat with customer support within the app, ensuring a smooth shopping experience.
 
