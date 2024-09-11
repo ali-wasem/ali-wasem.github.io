@@ -3,7 +3,7 @@ layout: post
 title: "Best Store: A Feature-Rich Flutter Application"
 date: 2024-08-01 14:00:00 +0300
 description: Best Store is a feature-rich Flutter app with over 35 screens, offering a seamless shopping experience with custom themes, responsive design, and advanced state management. Explore its robust functionality and stay tuned for new features added daily.
-img: drugs_order_banner.png
+img: best-store/best-store-banner.png
 fig-caption: best store banner image
 tags: [flutter, app, riverpod, isar, auto_route, http, dummyjson]
 ---
