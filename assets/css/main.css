@@ -49,6 +49,16 @@ body {
   animation-duration: 0.2s;
 }
 
+/* Hover effect on clickable images */
+.modal-trigger {
+  transition: transform 0.2s ease-in-out;
+}
+
+.modal-trigger:hover {
+  transform: scale(0.95); /* Shrink the image slightly on hover */
+  cursor: pointer; /* Change cursor to pointer to indicate clickability */
+}
+
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity: 1;}
