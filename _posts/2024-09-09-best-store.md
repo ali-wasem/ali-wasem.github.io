@@ -77,14 +77,14 @@ Best Store adapts to various screen sizes and orientations, ensuring a seamless 
 - **Freezed**: To manage immutable data classes, ensuring consistency and reducing errors.
 - **Network Service Using HTTP**: Handles API requests, connecting the app to the DummyJSON backend server.
 - **Riverpod**: A robust state management solution that simplifies the management of app state across different screens.
+- **Caching**: Enhancing app performance by storing frequently accessed data locally.
+- **Skeleton and Shimmer Loading**: Improving user experience by displaying loading animations while data is being fetched.
 
 ## Upcoming Features
 
 Best Store is under active development, with new features being added daily. Here are some of the exciting updates planned for the near future:
 
-- **Caching**: Enhancing app performance by storing frequently accessed data locally.
 - **Local Database Support**: Introducing offline capabilities to allow users to browse and interact with the app even without an internet connection.
-- **Skeleton and Shimmer Loading**: Improving user experience by displaying loading animations while data is being fetched.
 
 ## View the Code and Download the App
 
