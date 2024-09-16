@@ -14,17 +14,17 @@ Welcome to **Best Store**, a beautiful Flutter app designed to deliver a seamles
 
 <div style="text-align: center;">
     <p>
-        <img src="{{site.baseurl}}/assets/img/best-store/1.png" alt="Select Drug Screen" width="32%" class="modal-trigger">
-        <img src="{{site.baseurl}}/assets/img/best-store/9.png" alt="Latest Order Home Screen" width="32%" class="modal-trigger">
-        <img src="{{site.baseurl}}/assets/img/best-store/10.png" alt="Orders History Screen" width="32%" class="modal-trigger">
+        <img src="{{site.baseurl}}/assets/img/best-store/1.png" alt="Home Screen" width="32%" class="modal-trigger">
+        <img src="{{site.baseurl}}/assets/img/best-store/9.png" alt="Product Details Screen" width="32%" class="modal-trigger">
+        <img src="{{site.baseurl}}/assets/img/best-store/10.png" alt="Add New Card Screen" width="32%" class="modal-trigger">
     </p>
 </div>
 
 <div style="text-align: center;">
     <p>
-        <img src="{{site.baseurl}}/assets/img/best-store/12.png" alt="Select Drug Screen" width="32%" class="modal-trigger">
-        <img src="{{site.baseurl}}/assets/img/best-store/8.png" alt="Latest Order Home Screen" width="32%" class="modal-trigger">
-        <img src="{{site.baseurl}}/assets/img/best-store/11.png" alt="Orders History Screen" width="32%" class="modal-trigger">
+        <img src="{{site.baseurl}}/assets/img/best-store/12.png" alt="Success Message Screen" width="32%" class="modal-trigger">
+        <img src="{{site.baseurl}}/assets/img/best-store/8.png" alt="Orders Screen" width="32%" class="modal-trigger">
+        <img src="{{site.baseurl}}/assets/img/best-store/11.png" alt="Track Order Screen" width="32%" class="modal-trigger">
     </p>
 </div>
 
