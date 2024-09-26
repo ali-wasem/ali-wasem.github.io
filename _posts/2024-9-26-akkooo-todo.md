@@ -18,12 +18,14 @@ tags:
   ]
 ---
 
+Welcome to **Akkooo Todo**, a beautiful Flutter app designed to manage Tasks easily and Effeciently.
+
 ## Screenshots
 
 <div style="text-align: center;">
     <p>
         <img src="{{site.baseurl}}/assets/img/akkooo-todo/1.png" alt="All Todos Screen" width="32%" class="modal-trigger">
-        <img src="{{site.baseurl}}/assets/img/akkooo-todo/29.png" alt="Create Todo Screen" width="32%" class="modal-trigger">
+        <img src="{{site.baseurl}}/assets/img/akkooo-todo/2.png" alt="Create Todo Screen" width="32%" class="modal-trigger">
         <img src="{{site.baseurl}}/assets/img/akkooo-todo/3.png" alt="Completed Todos Screen" width="32%" class="modal-trigger">
     </p>
 </div>
